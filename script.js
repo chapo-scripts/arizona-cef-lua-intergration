@@ -1,5 +1,1 @@
-class LuaCEF {
-    showTestAlert(str) {
-        alert(str ?? 'Text')
-    }
-}
+const showTestAlert = (str) => alert(str ?? 'Text');
