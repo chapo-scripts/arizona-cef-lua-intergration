@@ -1,1 +1,3 @@
-const showTestAlert = (str) => alert(str ?? 'Text');
+export function showAlert(text) { 
+  alert(text ?? 'none');
+}
